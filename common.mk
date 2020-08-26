@@ -302,6 +302,7 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.3-service.xiaomi_sm6250-libperfmgr \
+    android.hardware.power.stats@1.0-service.xiaomi_sm6250 \
     vendor.qti.hardware.perf@2.2.vendor
 
 # RCS
@@ -347,7 +348,8 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    kernel/xiaomi/sm6250
+    kernel/xiaomi/sm6250 \
+    hardware/google/pixel
 
 # Telephony
 PRODUCT_PACKAGES += \
