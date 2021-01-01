@@ -431,4 +431,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     persist.dirac.acs.controller=qem \
     persist.dirac.acs.ignore_error=1 \
     persist.dirac.acs.storeSettings=1 \
-    ro.audio.soundfx.dirac=true
+    ro.audio.soundfx.dirac=true \
+    hpx_send_params=1 \
+    persist.audio.dirac.speaker=true 
