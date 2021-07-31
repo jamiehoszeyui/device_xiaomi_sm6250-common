@@ -1357,6 +1357,9 @@ vendor/etc/init/vendor.qti.hardware.servicetracker@1.2-service.rc
 vendor/lib/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 
+# Telephony (qti-telephony-common) - from curtana RKQ1.200826.002 V12.0.2.0.RJWEUXM
+system_ext/framework/qti-telephony-common.jar|98bd3304bc89aa1549bd230febd8590b
+
 # Thermal
 vendor/bin/thermal-engine
 vendor/etc/thermal-engine.conf
