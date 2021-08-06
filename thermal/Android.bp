@@ -3,15 +3,15 @@ soong_namespace {
 }
 
 cc_binary {
-  name: "android.hardware.thermal@2.0-service.pixel",
+  name: "android.hardware.thermal@2.0-service.xiaomi_atoll",
   defaults: [
     "hidl_defaults",
   ],
   vendor: true,
   relative_install_path: "hw",
-  vintf_fragments: ["android.hardware.thermal@2.0-service.pixel.xml"],
+  vintf_fragments: ["android.hardware.thermal@2.0-service.xiaomi_atoll.xml"],
   init_rc: [
-    "android.hardware.thermal@2.0-service.pixel.rc",
+    "android.hardware.thermal@2.0-service.xiaomi_atoll.rc",
   ],
   srcs: [
     "service.cpp",
@@ -55,6 +55,6 @@ sh_binary {
   src: "init.thermal.logging.sh",
   vendor: true,
   init_rc: [
-    "pixel-thermal-logd.rc",
+    "xiaomi_atoll-thermal-logd.rc",
   ],
 }
