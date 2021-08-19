@@ -1361,7 +1361,7 @@ vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
 system_ext/framework/qti-telephony-common.jar|98bd3304bc89aa1549bd230febd8590b
 
 # Thermal engine - from sunfish - RQ3A.210805.001.A1/7474174
-vendor/bin/thermal-engine|549f8284d4aca92e2b8187ab2a283a90c40e6dca
+vendor/bin/thermal-engine|d163b4e607e77d880a617b10bd365523
 
 # ThermalClient
 vendor/lib/libthermalclient.so
