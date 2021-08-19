@@ -1366,6 +1366,7 @@ vendor/bin/thermal-engine|d163b4e607e77d880a617b10bd365523
 # ThermalClient
 vendor/lib/libthermalclient.so
 vendor/lib64/libthermalclient.so
+vendor/lib64/pixel-power-ext-V1-ndk_platform.so|462378d4656f6236bde286ba4dbeab7a
 
 # Time services
 -vendor/app/TimeService/TimeService.apk
