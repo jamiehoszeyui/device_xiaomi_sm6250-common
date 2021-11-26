@@ -16,5 +16,11 @@
     "repository": "SonalSingh18/vendor_xiaomi_miuicamera",
     "target_path": "vendor/xiaomi/miuicamera",
     "branch": "master"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "Panchajanya1999/azure-clang",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-azure",
+    "branch": "main"
   }
 ]
