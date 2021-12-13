@@ -87,12 +87,8 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 
 KERNEL_LD := LD=ld.lld
 TARGET_KERNEL_ARCH := arm64
-ifeq ($(CUSTOM_CLANG),true)
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := azure
-else
-TARGET_KERNEL_CLANG_COMPILE := true
-endif
 TARGET_KERNEL_CONFIG := cust_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm6250
 TARGET_KERNEL_ADDITIONAL_FLAGS := LD=ld.lld AR=llvm-ar AS=llvm-as NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip
